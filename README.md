@@ -1,3 +1,27 @@
+Requirement
+ - NPM
+
+Install
+ 1. clone project from github (https://github.com/kawin-k/react-restaurant.git)
+ 2. go to your project directory
+ 3. npm install
+ 4. npm start
+
+Online Hosting(can be used without installing)
+  1. go to https://restaurantapp-2fb94.firebaseapp.com/
+
+First time setting up
+  1. go to promotion editor page
+  2. click default rule
+
+Instruction
+  1. go to billing page
+  2. insert number of customers
+  3. choose your promotion code  (allow more than 1 promotion, system will pick the best promotion)
+  4. click "pay" button 
+
+--------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
