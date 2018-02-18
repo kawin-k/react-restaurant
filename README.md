@@ -10,15 +10,17 @@ Install
 Online Hosting(can be used without installing)
   1. go to https://restaurantapp-2fb94.firebaseapp.com/
 
-First time setting up
-  1. go to promotion editor page
-  2. click default rule
+Set up for first time use
+  1. run project(npm start)
+  2. go to promotion editor page
+  3. click "default rule" button
 
 Instruction
-  1. go to billing page
-  2. insert number of customers
-  3. choose your promotion code  (allow more than 1 promotion, system will pick the best promotion)
-  4. click "pay" button 
+  1. run project(npm start)
+  2. go to billing page
+  3. insert number of customers
+  4. choose your promotion code (allow more than 1 promotion, system will pick the best promotion)
+  5. click "pay" button 
 
 --------------------------------------------------------------------
 
