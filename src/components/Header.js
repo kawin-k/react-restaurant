@@ -9,7 +9,7 @@ export default class Header extends Component {
             <div className="container">
               <div className="navbar-header">
                 <span className="navbar-brand">
-                  RestaurnatApp
+                  RestaurantApp
                 </span>
               </div>
               <div className="collapse navbar-collapse">
