@@ -45,10 +45,8 @@ export default class PromotionEditorPage extends Component {
       }
     }
     componentDidUpdate(prevProps, prevState) {
-      if (prevState.promotions !== this.state.promotions) {
-        const json = JSON.stringify(this.state.promotions)
-        localStorage.setItem('promotions', json)
-      }
+      const json = JSON.stringify(this.state.promotions)
+      localStorage.setItem('promotions', json)
     }
     handleDefaultRule() {
       const promotions = []
@@ -143,6 +141,8 @@ export default class PromotionEditorPage extends Component {
         promotions: newPromotions,
         displayEditRuleModal: false
       }))
+      const json = JSON.stringify(newPromotions)
+      localStorage.setItem('promotions', json)
     }
     render() {
       return (
