@@ -98,7 +98,7 @@ export default class EditRuleModal extends Component {
             <div className="form-group">
               <label className="control-label col-sm-3">Pay Y:</label>
               <div className="col-sm-2 input-group">
-                <input type="text" className="form-control" name="discountNumber" defaultValue={promotion['condition']['discountNumber']}/>
+                <input type="text" className="form-control" name="discountNumber" defaultValue={promotion['condition']['minCustomerCount'] - promotion['condition']['discountNumber']}/>
               </div>
             </div>
             <div className="form-group">
