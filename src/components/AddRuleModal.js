@@ -226,7 +226,7 @@ export default class AddRuleModal extends Component {
               <div className="form-group text-center">
                 <button 
                   className="btn btn-primary" type="submit" disabled={this.state.templateID < 1 }>Save</button>
-                <button className="btn btn-danger" onClick={this.props.handleCloseAddRuleModal}>x</button>
+                <button className="btn btn-danger" onClick={this.props.handleCloseAddRuleModal}>Close</button>
               </div>
             </form>
           </div>

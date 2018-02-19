@@ -245,7 +245,7 @@ export default class EditRuleModal extends Component {
               {this.displayTemplate(this.props.editPromotion['templateID'], this.props.editPromotion)}
               <div className="form-group text-center">
                 <button className="btn btn-primary" type="submit">Save</button>
-                <button className="btn btn-danger" onClick={this.props.handleCloseEditRuleModal}>x</button>
+                <button className="btn btn-danger" onClick={this.props.handleCloseEditRuleModal}>Close</button>
               </div>
             </form>
           </div>
