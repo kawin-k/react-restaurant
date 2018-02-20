@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import BillingPage from './components/BillingPage'
 import PromotionEditorPage from './components/PromotionEditorPage'
+import ReservationPage from './components/ReservationPage'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Switch>
           <Route path="/" component={BillingPage} exact={true} />
           <Route path="/edit" component={PromotionEditorPage} />
+          <Route path="/reservation" component={ReservationPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div> 
