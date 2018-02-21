@@ -278,7 +278,7 @@ export default class ReservationPage extends Component {
         reservation: reservationDefault
       }
     })
-    const json = JSON.stringify(this.state.reservation)
+    const json = JSON.stringify(reservationDefault)
     localStorage.setItem('reservation', json)
   }
   handleOpenReservationModal(time, tableName) {
