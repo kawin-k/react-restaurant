@@ -115,8 +115,7 @@ export default class BillingForm extends Component {
                 </table>
               </div>
             </div>
-            <div className="form-group">
-              <div className="col-sm-5"></div>
+            <div className="form-group text-center">
               <button className="btn btn-primary btn-pay">Pay</button>
             </div>
           </form>

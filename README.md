@@ -12,15 +12,27 @@ Online Hosting(can be used without installing)
 
 Set up for first time use
   1. run project(npm start)
-  2. go to promotion editor page
+  2. go to "promotion editor" page
   3. click "default rule" button
 
-Instruction
-  1. run project(npm start)
-  2. go to billing page
-  3. insert number of customers
-  4. choose your promotion code (allow more than 1 promotion, system will pick the best promotion)
-  5. click "pay" button 
+Instruction(Billing)
+  1. go to "billing" page
+  2. insert number of customers
+  3. choose your promotion code (allow more than 1 promotion, system will pick the best promotion)
+  4. click "pay" button 
+
+Instruction(Edit Promotion)
+  1. go to "promotion editor" page
+  2. click "Add Rule" button
+  3. choose promotion template
+  4. insert promotion data
+  5. click "Save" button
+
+Instruction(Reserve Table)
+  1. go to "reservation table" page
+  2. choose your table 
+  3. insert name and contact
+  4. click "Reserve" button
 
 --------------------------------------------------------------------
 
