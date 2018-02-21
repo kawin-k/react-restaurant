@@ -83,14 +83,14 @@ export default class ReservationModal extends Component {
                   type="submit" 
                   disabled={!this.props.isAvailable}
                 >
-                  Reserve
+                  Reserve Table
                 </button>
                 <button 
                   className="btn btn btn-warning" 
                   onClick={this.handleCancelTable}
                   disabled={this.props.isAvailable}
                 >
-                  Cancel
+                  Cancel Table
                 </button>
                 <button 
                   className="btn btn-danger" 

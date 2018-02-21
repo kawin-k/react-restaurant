@@ -29,7 +29,7 @@ Instruction(Edit Promotion)
   5. click "Save" button
 
 Instruction(Reserve Table)
-  1. go to "reservation table" page
+  1. go to "Reservation Table" page
   2. choose your table 
   3. insert name and contact
   4. click "Reserve" button
