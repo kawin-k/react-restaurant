@@ -12,17 +12,17 @@ Online Hosting(can be used without installing)
 
 Set up for first time use
   1. run project(npm start)
-  2. go to "promotion editor" page
-  3. click "default rule" button
+  2. go to "Promotion Editor" page
+  3. click "Default Rule" button
 
 Instruction(Billing)
-  1. go to "billing" page
+  1. go to "Billing" page
   2. insert number of customers
   3. choose your promotion code (allow more than 1 promotion, system will pick the best promotion)
-  4. click "pay" button 
+  4. click "Pay" button 
 
 Instruction(Edit Promotion)
-  1. go to "promotion editor" page
+  1. go to "Promotion Editor" page
   2. click "Add Rule" button
   3. choose promotion template
   4. insert promotion data

@@ -19,9 +19,9 @@ export default class Header extends Component {
               </div>
               <div className="collapse navbar-collapse" id="myNavbar">
                 <ul className="nav navbar-nav">
-                  <li><NavLink to="/" activeClassName="active" exact={true}>billing</NavLink></li>
-                  <li><NavLink to="/edit" activeClassName="active">promotion editor</NavLink></li>
-                  <li><NavLink to="/reservation" activeClassName="active">reservation table</NavLink></li>
+                  <li><NavLink to="/" activeClassName="active" exact={true}>Billing</NavLink></li>
+                  <li><NavLink to="/edit" activeClassName="active">Promotion Editor</NavLink></li>
+                  <li><NavLink to="/reservation" activeClassName="active">Reservation Table</NavLink></li>
                 </ul>
               </div>
             </div>
